@@ -5,18 +5,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <form>
+      <div class="container">
+             <h1>Formulaires</h1>
+             <form>
+                 <input type="text" class="form-control form-control-sm mb-3" id="email" placeholder="fullname" required/>
+                 <input type="email" class="form-control form-control mb-3" id="email" placeholder="email" required/>
+                 <input type="password" class="form-control form-control-lg" id="email" placeholder="password" required/>
+             </form>
+         </div>
+         <button type="button" class="btn btn-primary">Ok</button>
+</form>
       </header>
     </div>
   );
